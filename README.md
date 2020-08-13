@@ -25,9 +25,14 @@ mpraanalysiscode has a number of functions
 3. mpra_modeling_functions.R <- A number of statistical analytic functions using linear mixed modeling (lme4) & ANOVA, as well as r2glmm implementation of the Nakagawa & Schielzeth estimates of R2 from LMMs/GLMMs. 
 
   reshape.mpra(): converts countdata to "long" format for repeated measures style analysis
+  
   extractOmnibusStatistics(): computes ANOVA F tests for LMM, and estimates of R2, ICC, proportion of variance explained terms for fixed effects
+  
   extractModelLogFCEstimates(): extract the log fold change estimates, SE, post-hoc pvals, and 95% confidence intervals for each condition between reference and mutated sequence
+  
   extractAllTukeys(): extract all Tukey's posthoc pairwise comparisons with associated statistics
+  
   extractDescriptiveStats(): extract means & ses & confidence intervals for each condition/sequence (the group means)
+  
   collapseBarcodes(): calculates the barcode collapsed mean for each sample/condition/sequence in the data (the sample means)
   
