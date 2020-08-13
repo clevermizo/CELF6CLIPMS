@@ -20,7 +20,7 @@ stepSize="50"  # window overlap. Set to 0 for no overlap.
 # 4. Count reads strandedly in each window
 # 5. Call peaks gene-by-gene
 # Depends:
-# bedtools, samtools, Piranha
+# bedtools, samtools, Piranha, R, stringr R package
 # R code: 
 #  makeChromosomeWindowsIntoFeatureGTF.R <- takes BED file from chromosome windowing & makes a GTF file that subread featureCounts can use
 #  makePeakFeatureGTFfromSigPeaks.R <- takes BED file from Piranha's peak calling & makes a GTF file that subread featureCounts can use, subsetting to peaks with p less than piranhapval threshold above
